@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./assets/font/Helvetica-Bold.eot');
+    src: url('./assets/font/Helvetica-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/Helvetica-Bold.woff') format('woff'),
+        url('./assets/font/Helvetica-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./assets/font/Helvetica-BoldOblique.eot');
+    src: url('./assets/font/Helvetica-BoldOblique.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/Helvetica-BoldOblique.woff') format('woff'),
+        url('./assets/font/Helvetica-BoldOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./assets/font/Helvetica-Oblique.eot');
+    src: url('./assets/font/Helvetica-Oblique.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/Helvetica-Oblique.woff') format('woff'),
+        url('./assets/font/Helvetica-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./assets/font/Helvetica.eot');
+    src: url('./assets/font/Helvetica.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/Helvetica.woff') format('woff'),
+        url('./assets/font/Helvetica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica';
+    src: url('./assets/font/Helvetica-Light.eot');
+    src: url('./assets/font/Helvetica-Light.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/Helvetica-Light.woff') format('woff'),
+        url('./assets/font/Helvetica-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Helvetica-oblique';
+    src: url('./assets/font/HelveticaLightOblique.eot');
+    src: url('./assets/font/HelveticaLightOblique.eot?#iefix') format('embedded-opentype'),
+        url('./assets/font/HelveticaLightOblique.woff') format('woff'),
+        url('./assets/font/HelveticaLightOblique.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+body{
+    font-family:Helvetica, sans-serif;
+}
+button,a{
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+}
+
+/* Chip */
+
+.mat-chip {
+    font-size: 15px;
+}
+.mat-standard-chip {
+    padding: 7px 12px;
+}
+.mat-standard-chip.mat-chip-with-trailing-icon {
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+}
+.budget-picker-controller .mat-chip.mat-standard-chip {
+    color: #1b374c;
+    box-shadow: 5px 0px 21px rgba(157,157,157,0.29);
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid #1b374c;
+    font-size: 14px;
+}
+.budget-picker-controller  .mat-form-field-appearance-legacy .mat-form-field-label{
+    color:#e0bf65;
+    display: none;
+}
+.mat-chip-list-wrapper input.mat-input-element{
+    padding: 10px 0;
+}
+.mat-chip.mat-standard-chip .mat-chip-remove {
+    color: #fb655a;
+    opacity: 1;
+}
+.mat-chip .mat-chip-remove.mat-icon, .mat-chip .mat-chip-trailing-icon.mat-icon{
+    font-size: 20px;
+}
+.mat-autocomplete-panel{
+    background-color: #f4f4f4;
+}
+.mat-autocomplete-panel .mat-option.mat-selected:not(.mat-active):not(:hover){
+    background-color: #f4f4f4;
+}
+.budget-picker-controller .mat-chip-list-wrapper input.mat-input-element{
+    color: #1b374c;
+}
+.budget-picker-controller .mat-input-element {
+    caret-color: #1b374c;
+}
+/* For home page only */
+.budget-picker-controller .mat-chip-list-wrapper {
+    margin: 0;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: inset 0 0 14px rgba(0,0,0,0.4);
+}
+.budget-picker-controller .mat-chip.mat-standard-chip .mat-chip-remove {
+    color: #1b374c;
+}
+/* for jome page only */
+
+/* Chip */
+
+.budget-picker-controller .mat-form-field.mat-focused .mat-form-field-ripple {
+    background-color: #e0bf65;
+    display: none;
+}
+.budget-picker-controller .mat-form-field-ripple,
+.budget-picker-controller .mat-form-field-appearance-legacy .mat-form-field-underline{
+    background-color: #fff;
+    display: none;
+}
